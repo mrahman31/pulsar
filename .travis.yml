@@ -59,6 +59,6 @@ script:
     #- docker/build.sh || exit -1
     # Generate website
     #- (cd site && make travis_build) || exit -1
-    - mvn clean test -fn
+    - mvn clean test -fn -q
 
 
